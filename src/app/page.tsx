@@ -6,23 +6,23 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function Home() {
   const cards = [
     {
-      title: "Panen Rencana",
-      description: "Buat perencanaan untuk dirimu!",
-      icon: "/emoji/notebook.png",
-      link: "#"
-    },
-    {
       title: "Panen Edukasi",
       description: "Tambah pengetahuan untuk dirimu!",
       icon: "/emoji/books.png",
       link: "/edukasi"
     },
     {
+      title: "Panen Rencana",
+      description: "Buat perencanaan untuk dirimu!",
+      icon: "/emoji/notebook.png",
+      link: "#"
+    },
+    {
       title: "Panen Journey",
       description: "Kembangkan dirimu secara bertahap!",
       icon: "/emoji/seedling.png",
       link: "#"
-    }
+    },
   ];
 
   return (
