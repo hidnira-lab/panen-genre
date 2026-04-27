@@ -8,15 +8,15 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="fixed top-8 left-1/2 -translate-x-1/2 w-[90%] md:w-auto bg-[#2C2727] text-white px-6 md:px-8 py-3 rounded-[1.5rem] md:rounded-full shadow-lg z-50 transition-all duration-300">
+        <nav className="fixed top-8 left-1/2 -translate-x-1/2 w-[80%] md:w-auto bg-[#31262A] text-white px-6 md:px-8 py-3 md:py-2 rounded-[2rem] shadow-lg z-50 transition-all duration-300">
 
-            <div className="flex items-center justify-between gap-8 text-sm font-medium whitespace-nowrap">
+            <div className="flex items-center justify-between gap-8 text-sm font-medium whitespace-nowrap font-abalone">
 
-                <Link href="/" className="bg-white text-black px-4 py-1.5 rounded-full font-bold">
+                <Link href="/" className="bg-white text-[#31262A] px-4 py-2 rounded-full font-normal">
                     Beranda
                 </Link>
 
-                <div className="hidden md:flex gap-8 items-center">
+                <div className="hidden md:flex gap-8 items-center py-2">
                     <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Edukasi</Link>
                     <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Rencana</Link>
                     <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Journey</Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
 
             <div
-                className={`md:hidden flex flex-col gap-4 overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`md:hidden flex flex-col gap-4 font-abalone transition-all duration-300 ease-in-out ${
                     isOpen ? 'max-h-48 pt-6 pb-2 opacity-100' : 'max-h-0 opacity-0'
                 }`}
             >
