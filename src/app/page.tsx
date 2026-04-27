@@ -48,13 +48,13 @@ export default function Home() {
             Edukasi, dan Kesiapan.
           </h1>
 
-          <p className="text-xl text-gray-700 font-medium mb-6">
+          <p className="text-2xl text-gray-700 font-medium mb-6">
             Siapkan Dirimu, <span className="font-bold text-[#2C2727]">Panen</span> Masa Depanmu! 🌾
           </p>
 
           <div className="bg-gradient-to-b from-[#2E8E37] to-[#31262A]
-          text-white px-6 py-2 rounded-full text-sm font-medium shadow-md">
-            oleh Ahmad Azisman Effendi Pratama
+          text-white px-6 py-2 rounded-full text-md font-normal shadow-md">
+            oleh <span className="font-medium">Ahmad Azisman Effendi Pratama</span>
           </div>
         </div>
 
