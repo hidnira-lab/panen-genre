@@ -17,7 +17,7 @@ const Navbar = () => {
                 </Link>
 
                 <div className="hidden md:flex gap-8 items-center py-2">
-                    <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Edukasi</Link>
+                    <Link href="/edukasi" className="py-1 hover:text-green-300 transition-colors">Panen Edukasi</Link>
                     <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Rencana</Link>
                     <Link href="#" className="py-1 hover:text-green-300 transition-colors">Panen Journey</Link>
                 </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     isOpen ? 'max-h-48 pt-6 pb-2 opacity-100' : 'max-h-0 opacity-0'
                 }`}
             >
-                <Link href="#" className="hover:text-green-300 transition-colors px-2 border-b border-white/10 pb-2">
+                <Link href="/edukasi" className="hover:text-green-300 transition-colors px-2 border-b border-white/10 pb-2">
                     Panen Edukasi
                 </Link>
                 <Link href="#" className="hover:text-green-300 transition-colors px-2 border-b border-white/10 pb-2">

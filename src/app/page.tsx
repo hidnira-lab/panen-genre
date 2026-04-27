@@ -15,7 +15,7 @@ export default function Home() {
       title: "Panen Edukasi",
       description: "Tambah pengetahuan untuk dirimu!",
       icon: "/emoji/books.png",
-      link: "#"
+      link: "/edukasi"
     },
     {
       title: "Panen Journey",
