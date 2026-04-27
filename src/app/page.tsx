@@ -75,7 +75,7 @@ export default function Home() {
                     />
                   </div>
 
-                  <h3 className="text-3xl font-bold font-abalone mb-3">
+                  <h3 className="text-white text-3xl font-bold font-abalone mb-3">
                     {card.title.split(' ').map((word, i) => (
                         <span key={i} className="block">{word}</span>
                     ))}
@@ -87,7 +87,7 @@ export default function Home() {
 
                   <a
                       href={card.link}
-                      className="mt-auto bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm flex items-center gap-2 hover:bg-gray-200 transition-colors"
+                      className="mt-auto bg-white text-[#31262A] px-6 py-2.5 rounded-full font-bold text-sm flex items-center gap-2 hover:bg-gray-200 transition-colors"
                   >
                     Buka Fitur
                     <FiArrowUpRight className="text-lg" />
